@@ -1,5 +1,8 @@
 # webrtc-recovery
 
+[![release](https://img.shields.io/github/v/release/AiLaoHuYu/webrtc-recovery)](https://github.com/AiLaoHuYu/webrtc-recovery/releases/latest)
+[![license](https://img.shields.io/github/license/AiLaoHuYu/webrtc-recovery)](LICENSE)
+
 Your viewer says `connected`. The picture is a still image.
 
 `iceConnectionState === 'connected'` means a usable candidate pair exists. It does not
@@ -29,6 +32,17 @@ npm install https://github.com/AiLaoHuYu/webrtc-recovery/archive/refs/tags/v0.1.
 
 Install the tagged GitHub release until the npm registry listing is available. ESM only.
 Node 18+ or any current browser.
+
+### Browser without a build step
+
+Load the tagged module directly from jsDelivr:
+
+```html
+<script type="module">
+  import { createRecoveryLadder, watchFrames } from
+    'https://cdn.jsdelivr.net/gh/AiLaoHuYu/webrtc-recovery@v0.1.1/src/index.js';
+</script>
+```
 
 ## Quick start
 
