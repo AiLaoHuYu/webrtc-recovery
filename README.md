@@ -173,7 +173,8 @@ patterns that shaped them are written up at:
 - <https://lowlatencykit.com/guides/webrtc-getstats-six-numbers/>
 
 If you would rather not assemble the other half - signaling, the SFU, the publisher and
-the viewer - that is what <https://lowlatencykit.com> is.
+the viewer - that is what <https://lowlatencykit.com> is. The complete source package is
+also available through [Codester](https://www.codester.com/items/72624/lowlatencykit-self-hosted-webrtc-video-server?ref=LowLatency).
 
 ## License
 
