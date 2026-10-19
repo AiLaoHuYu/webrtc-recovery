@@ -24,10 +24,11 @@ covered by a test that runs in milliseconds.
 ## Install
 
 ```bash
-npm install webrtc-recovery
+npm install https://github.com/AiLaoHuYu/webrtc-recovery/archive/refs/tags/v0.1.1.tar.gz
 ```
 
-ESM only. Node 18+ or any current browser.
+Install the tagged GitHub release until the npm registry listing is available. ESM only.
+Node 18+ or any current browser.
 
 ## Quick start
 

@@ -1,9 +1,18 @@
 {
   "name": "webrtc-recovery",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Recovery ladder for WebRTC viewers: ICE restart, full rejoin, freeze detection and a plain-English diagnosis. Zero dependencies.",
   "type": "module",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiLaoHuYu/webrtc-recovery.git"
+  },
+  "homepage": "https://github.com/AiLaoHuYu/webrtc-recovery#readme",
+  "bugs": {
+    "url": "https://github.com/AiLaoHuYu/webrtc-recovery/issues"
+  },
+  "author": "AiLaoHuYu",
   "exports": {
     ".": "./src/index.js"
   },
@@ -20,7 +29,7 @@
     "ice-restart",
     "sfu",
     "getstats",
-    "reconnect",
+    "reconnecting",
     "video"
   ],
   "license": "MIT",
