@@ -12,6 +12,10 @@ can be live and frozen for minutes while every state field reads healthy.
 This package treats "frames are advancing" as the only proof of health, and spends
 recovery effort in the order that costs the least:
 
+**Try it in the browser:** [Connected. Frozen. Recovered.](https://lowlatencykit.com/demo/webrtc-recovery/)
+freezes a live canvas stream and shows the watchdog, ICE restart and full-rejoin paths.
+No install and no account.
+
 ```
 1. ICE restart     same session, renegotiated candidates
        no frames within restartDeadlineMs (5s)
@@ -164,6 +168,7 @@ exists to prevent.
 The defaults here come from a viewer that runs in production, and the two failure
 patterns that shaped them are written up at:
 
+- <https://lowlatencykit.com/demo/webrtc-recovery/>
 - <https://lowlatencykit.com/guides/frozen-video-ice-restart-ladder/>
 - <https://lowlatencykit.com/guides/webrtc-getstats-six-numbers/>
 
