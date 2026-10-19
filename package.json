@@ -1,0 +1,30 @@
+{
+  "name": "webrtc-recovery",
+  "version": "0.1.0",
+  "description": "Recovery ladder for WebRTC viewers: ICE restart, full rejoin, freeze detection and a plain-English diagnosis. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "webrtc",
+    "ice-restart",
+    "sfu",
+    "getstats",
+    "reconnect",
+    "video"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
